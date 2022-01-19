@@ -6,7 +6,7 @@ let c = a + b;
 //Expected outut 15
 console.log("Original output: " + c);
 
-a= 20;
+let= 20;
 
 //Expected output 30, but it's actually still 15
 console.log("After 'a' has been updated: " + c)
@@ -22,3 +22,9 @@ function conversation() {
     console.log("How are you?");
     console.log("Goodbye");
 }
+
+function futureAge( name, age){
+const answer = age + 5;
+return name + " will be " + answer + " in 5 years! ";
+}
+console.log(futureAge("Mary" , 24))
