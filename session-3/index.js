@@ -11,4 +11,14 @@ a= 20;
 //Expected output 30, but it's actually still 15
 console.log("After 'a' has been updated: " + c)
 
-c = a + b;
+function sayHey(){
+    console.log("Hey!");
+}
+
+sayHey();
+
+function conversation() {
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodbye");
+}
