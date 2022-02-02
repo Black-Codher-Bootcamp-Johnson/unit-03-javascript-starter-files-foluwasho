@@ -21,9 +21,16 @@ console.log(animals);
 
 
 // ****************************************************TASK 2****************************************************
+const names=['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra', 'chicken', 'goat','owl', 'donkey'];
+ 
+names.sort();
 
+console.log(names);
 
+ 
+names.sort().reverse();
 
+console.log(names);
 
 
 
